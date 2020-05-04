@@ -8,5 +8,4 @@ README.md: guessinggame.sh
 	echo "\nGuessingGame containes" >> README.md
 	cat guessinggame.sh | wc -l  >> README.md
 	echo "Lines of code \n" >> README.md
-clean:
-	rm README.md
+
